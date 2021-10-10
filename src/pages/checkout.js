@@ -2,7 +2,7 @@ import Header from '../components/Header';
 import Image from 'next/image';
 import { useSelector } from 'react-redux';
 import { selectItems, selectTotal } from '../slices/basketSlice';
-import CheckoutProduct from '../components/Checkoutproduct';
+import CheckoutProduct from '../components/CheckoutProduct';
 import Currency from 'react-currency-formatter';
 import { useSession } from 'next-auth/client';
 
